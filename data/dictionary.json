@@ -1,0 +1,39 @@
+{
+  "word": {
+    "definition": "a {collection} of {letters}",
+    "url": "//example.com/word"
+  },
+  "letter": {
+    "definition": "a {character} representing one or more of the {sounds} used in speech; any of the symbols of an alphabet",
+    "url": "//example.com/letter"
+  },
+  "collection": {
+    "definition": "a group of things or {people}",
+    "url": "//example.us/collection"
+  },
+  "character": {
+    "definition": "a printed or written {letter} or symbol",
+    "url": "//example.com/character"
+  },
+  "sound": {
+    "definition": "{vibrations} that travel through the air or another medium and can be heard when they reach a {person}'s or animal's ear",
+    "url": "//example.it/sound"
+  },
+  "vibration": {
+    "definition": "an oscillation of the parts of a fluid or an elastic {solid} whose equilibrium has been disturbed, or of an electromagnetic wave",
+    "url": "//example.com/vibration"
+  },
+  "solid": {
+    "definition": "a substance or object that is {solid} rather than liquid or fluid",
+    "url": "//example.org/solid"
+  },
+  "substance": {
+    "definition": "the real physical matter of which a {person} or thing consists and which has a tangible, {solid} presence",
+    "url": "//example.com/substance"
+  },
+  "person": {
+    "plural": "people",
+    "definition": "a human being regarded as an individual",
+    "url": "//example.com/person"
+  }
+}
