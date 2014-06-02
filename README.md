@@ -18,7 +18,7 @@ You have a dictionary in JSON format, that looks like this:
   "collection": {
     "definition": "a group of things or people",
     "url": "//example.us/collection"
-  },
+  }
 }
 ```
 
