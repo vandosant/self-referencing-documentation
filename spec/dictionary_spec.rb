@@ -24,7 +24,7 @@ describe Dictionary do
     expect(reference).to eq expected
   end
 
-  it 'finds the definition for a given word and multiple non-pluralized reference' do
+  it 'finds the definition for a given word and multiple pluralized references' do
     input = {
       "word" => {
         "definition" => "a {collection} of {letters}.",
@@ -34,9 +34,9 @@ describe Dictionary do
         "definition" => "a group of something.",
         "url" => "//example.com/collection"
       },
-      "letters" => {
+      "letter" => {
         "definition" => "some characters",
-        "url" => "//example.com/letters"
+        "url" => "//example.com/letter"
       }
     }
 
@@ -44,7 +44,7 @@ describe Dictionary do
 
     expected = {
       "definition" => "a collection of letters.",
-      "see_also" => ["//example.com/collection", "//example.com/letters"]
+      "see_also" => ["//example.com/collection", "//example.com/letter"]
     }
 
     expect(reference).to eq expected
